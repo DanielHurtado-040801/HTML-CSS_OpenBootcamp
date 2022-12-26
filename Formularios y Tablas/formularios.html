@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <form action="resultados.html" method="GET">
+            <div>
+                <label for="nombre_usuario">Nombre de usuario</label>
+                <input type="text" name="Username" id="nombre_usuario" required />
+            </div>
+            <div>
+                <label for="contraseña_usuario">Contraseña</label>
+                <input type="password" name="Password" id="contraseña_usuario" required />
+            </div>
+            <div>
+                <label for="telefono_usuario">Telefono</label>
+                <input type="number" name="telefono" id="telefono_usuario" min="0">
+            </div>
+            <div>
+                <label for="email_usuario"></label>
+                <input type="email" name="email" id="email_usuario" required />
+            </div>
+            <div>
+                <label for="nacimiento_usuario">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento_usuario">
+            </div>
+            <div>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
