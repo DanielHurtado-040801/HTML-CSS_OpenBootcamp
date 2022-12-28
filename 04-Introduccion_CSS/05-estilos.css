@@ -1,0 +1,15 @@
+html{
+    font-family:'Courier New', Courier, monospace
+}
+
+h1{
+    color: #343a40;
+}
+
+#elemento-1 {
+    color: red;
+}
+
+.productos #elemento-1{
+    font-size: 2rem;
+}
