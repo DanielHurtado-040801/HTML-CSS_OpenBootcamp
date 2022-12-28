@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+/* Estoy agredando un comentario */
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+/* Selectores de id */
+/* Se selecciona solo los parrafos con el id "primera-noticia" */
+p#primera-noticia {
+    color: green;
+    font-size: 16px;
+}
+
+#segunda-noticia {
+    color: purple;
+}
+/* Selector de clase */
+.encabezado-noticias {
+    font-size: 20px;
+    color: red;
+}
+
+.Autor, .Fecha, .Genero {
+    text-decoration: underline;
+}
