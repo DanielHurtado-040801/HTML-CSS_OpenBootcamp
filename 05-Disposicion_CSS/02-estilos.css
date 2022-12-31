@@ -1,0 +1,46 @@
+div {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.static {
+    /* Este div no se puede modificar su posicionamiento */
+    /* Este es el por defecto de los divs */
+    background-color: white;
+}
+
+.relative {
+    /* Se posiciona en realcion al posicionamiento original */
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+.fixed {
+    /* Se usa para barras de navegacion dado que se sobreposiciona y se mantine donde se le diga el div */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.absolute {
+    /* Se posiciona en funcion de su 'padre' relativo que es el elemento que lo esta conteniendo */
+    position: absolute;
+    top: 5px;
+    background-color: white;
+}
+
+.contenedor {
+    height: 100px;
+    background-color: red;
+}
+
+.sticky {
+    background-color: yellow;
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+}

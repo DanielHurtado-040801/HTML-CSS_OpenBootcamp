@@ -1,0 +1,49 @@
+.contenedor-hidden {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    overflow: hidden;
+    /* Todo lo que sobra o no cabe se esconde y no hay manera de verlo */
+}
+
+.contenedor-scroll {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    overflow: scroll;
+    /* Todo lo que sobra o no cabe se esconde y no hay manera de verlo */
+}
+
+.contenedor-visible {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    overflow: visible;
+    /* Todo lo que sobra o no cabe se esconde y no hay manera de verlo */
+}
+
+.contenedor-auto {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    overflow: auto;
+    /* Todo lo que sobra o no cabe se esconde y no hay manera de verlo */
+}
+
+.contenedor-scroll-x {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* Todo lo que sobra o no cabe se esconde y no hay manera de verlo */
+}

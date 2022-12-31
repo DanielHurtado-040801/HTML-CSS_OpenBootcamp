@@ -1,0 +1,15 @@
+.div-1, div.div-2{
+    background-color: red;
+    /* los divs tienen por defecto display block */
+}
+
+.span-1{
+    background-color: yellow;
+    float: right;
+    /* Los span tienen por defecto display inline */
+}
+
+.span-2 {
+    background-color: blue;
+    float: left;
+}

@@ -1,0 +1,29 @@
+.flex {
+    display: flex; /* Contiene todo lo que tenga dentro del div lo pone de una manera ordenada */
+    flex-direction: column;
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; Propiedad para que no haya redimensionamiento de los elementos dentro del div*/
+}
+
+.contenido-1 {
+    background-color: white;
+    /* height: 200px; */
+    width: 200px;
+    border: 1px solid blue;
+}
+.contenido-2 {
+    background-color: white;
+    /* height: 200px; */
+    width: 200px;
+    border: 1px solid blue;
+}
+.contenido-3 {
+    background-color: white;
+    /* height: 200px; */
+    width: 200px;
+    border: 1px solid blue;
+    background-color: red;
+}
