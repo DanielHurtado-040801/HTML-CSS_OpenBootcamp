@@ -1,0 +1,24 @@
+/*Como las hojas css se leen de arriba a abajo, se sobreescriben las propuedades 
+    excepto en las clases y los id porque hay especifidad por lo tanto no se sobreescriben
+    si no que se mantiene cierta jerarquia entre estos
+    Por lo tanto el id es mas importante que la clase y la clase es mas importante que una etiqueta*/
+
+h1#h1-id.h1-clase {
+    color: violet;
+}
+
+#h1-id {
+    color: turquoise;
+}
+
+.h1-clase {
+    color: yellowgreen;
+}
+
+h1 { 
+    color: teal;
+}
+
+p {
+    color:lightslategray;
+}

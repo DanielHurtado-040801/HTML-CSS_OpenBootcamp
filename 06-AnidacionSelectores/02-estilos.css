@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hover {
+    width: 300px;
+    height: 100px;
+    background-color: rgba(250, 237, 120, 0.959);
+}
+
+.hover:hover { /* El hover se activa cuando el mouse esta por en cima del elemento */
+    background-color: aqua;
+}
+
+.listado {
+    background-color: cadetblue;
+    padding: 15px;
+}
+
+.listado p:first-child { /*Afecta el primer elemento de tipo p para el div listado */
+    color: blue;
+}
+
+a:link { /* Link no abierto o visitado todavia */
+    color: blue;
+}
+
+a:visited { /* Link ya abierto o visitado */
+    color: red;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: greenyellow;
+}
