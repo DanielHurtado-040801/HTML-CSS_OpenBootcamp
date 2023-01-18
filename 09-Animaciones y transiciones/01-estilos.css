@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+}
+
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    transition: all 1s ease-in 500ms; /* Aplica la transicion a todo en 1 seg */
+    /* transition: transform 1s;  Aplica solo la duracion de 1 seg al transform */
+}
+
+.padre:hover .hijo {
+    transform: translateX(100%);
+    background-color: chartreuse;
+}
+
+.padre2 {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+.hijo2 {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    animation: traslacion 5s infinite forwards alternate;
+}
+
+.padre2:hover .hijo2 {
+     /* Forwards para mantener la animacion meintras este el mouse */
+     animation-play-state: paused;
+}
+
+@keyframes traslacion {
+    0%{
+        background-color: red;
+        transform: translateX(0%) translateY(0%);
+    }
+    25%{
+        transform: translateX(100%) translateY(0%);
+    }
+    50%{
+        transform: translateY(100%) translateX(100%);
+        background-color: blueviolet;
+    }
+    75%{
+        transform: translateY(100%) translateX(0%);
+    }
+    100%{
+        transform: translateX(0%) translateY(0%);
+        background-color: yellowgreen;
+    }
+}
