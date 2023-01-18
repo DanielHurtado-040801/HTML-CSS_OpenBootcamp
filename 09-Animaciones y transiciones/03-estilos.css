@@ -1,0 +1,23 @@
+.btn-modern {
+    background-color: rgb(255, 0, 0);
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-modern:hover {
+    animation: transicion 0.4s forwards infinite alternate; 
+}
+
+@keyframes transicion {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        background-color: yellow;
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px black;
+        color: black;
+    }
+}
