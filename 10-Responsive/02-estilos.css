@@ -1,0 +1,22 @@
+.escenario {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.escenario-1 {
+    font-size: 32px;
+}
+
+.escenario-2 {
+    font-size: 16px;
+}
+
+.em {
+    font-size: 2em;
+    /* Se modifica el tamaño si en el div o elemento padre se modifica */
+}
+
+.rem {
+    font-size: 2rem;
+    /* NO se modifica este tamaño aunque en el div se modifique */
+}
