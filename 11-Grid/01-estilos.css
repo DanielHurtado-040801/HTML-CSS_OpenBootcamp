@@ -1,0 +1,10 @@
+.container-fluid{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    flex: 1;
+    background-color: yellow;
+}
